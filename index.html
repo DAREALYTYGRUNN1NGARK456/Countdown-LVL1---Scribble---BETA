@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Countdown</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p id="scribble" class="scribble">"h"+"int"=hint</p>
+    <div class="parent">
+      <div id="countdown">
+        15:00
+      </div>
+      <br>
+      <div class="child">
+        <button class="numpad" id="button1" onclick="buttonPress(1);">1</button>
+        <button class="numpad" id="button2" onclick="buttonPress(2);">2</button>
+        <button class="numpad" id="button3" onclick="buttonPress(3);">3</button>
+      </div>
+      <div class="child">
+        <button class="numpad" id="button4" onclick="buttonPress(4);">4</button>
+        <button class="numpad" id="button5" onclick="buttonPress(5);">5</button>
+        <button class="numpad" id="button6" onclick="buttonPress(6);">6</button>
+      </div>
+      <div class="child">
+        <button class="numpad" id="button7" onclick="buttonPress(7);">7</button>
+        <button class="numpad" id="button8" onclick="buttonPress(8);">8</button>
+        <button class="numpad" id="button9" onclick="buttonPress(9);">9</button>
+      </div>
+      <div class="child">
+        <button class="numpad" id="button0" onclick="buttonPress(0);">0</button>
+      </div>
+    </div>
+    <img src="smile.png" class="smile">
+    <p class="bottomright" id="hidden">hint</p>
+    <script src="script.js"></script>
+  </body>
+</html>
